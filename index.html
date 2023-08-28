@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="top_part">
+        <div class="title_part">
+          <h2>Typing Test....(Click anywhere to start)</h2>
+          <div class="sound">
+            <span>Key Sound OFF/ON</span>
+            <input type="checkbox" name="" id="" />
+            <span id="dark">Theme LIGHT/DARK</span>
+            <input
+              type="checkbox"
+              class="theme-switcher"
+              name=""
+              id="themeSwitcher"
+            />
+          </div>
+        </div>
+        <hr />
+        <div class="type_content">
+          <input type="text" id="typeValue" />
+          <p></p>
+        </div>
+      </div>
+
+      <div class="bottom_part">
+        <p class="t-left">Time-Left : 0</p>
+        <p class="error">Mistakes : 0</p>
+        <p class="wpm">WPM : 0</p>
+        <p class="cpm">CPM : 0</p>
+        <button>Try Again</button>
+      </div>
+
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+
+    <script src="para.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
